@@ -10,7 +10,7 @@ Acest proiect modelează o platformă de recrutare IT care permite gestionarea:
 * Candidaților
 * Joburilor disponibile
 * Skill-urilor tehnice
-* Aplicările candidaților
+* Aplicațiile trimise de candidați
 * Interviurilor
 * Procesului de *matching* între candidați și joburi
 
@@ -38,8 +38,8 @@ Diagrama prezintă structura bazei de date și relațiile dintre entități.
 |`candidates`|Informații despre candidații înregistrați pe platformă|
 |`jobs`|Informații despre joburile publicate de companii|
 |`skills`|Informații despre skill-uri tehnice|
-|`applications`|Informații despre aplicările candidaților|
-|`interviews`|Informațiile despre interview-urile asociate aplicărilor|
+|`applications`|Informații despre aplicațiile trimise de candidați|
+|`interviews`|Informațiile despre interview-urile asociate aplicațiilor primite|
 
 ### Tabele de legătură
 
